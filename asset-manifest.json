@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "slavikshakhov.github.io/chat-react/static/css/main.07da6f53.chunk.css",
+    "main.js": "slavikshakhov.github.io/chat-react/static/js/main.0b22fecf.chunk.js",
+    "main.js.map": "slavikshakhov.github.io/chat-react/static/js/main.0b22fecf.chunk.js.map",
+    "runtime-main.js": "slavikshakhov.github.io/chat-react/static/js/runtime-main.5a77fdfe.js",
+    "runtime-main.js.map": "slavikshakhov.github.io/chat-react/static/js/runtime-main.5a77fdfe.js.map",
+    "static/css/2.eb45ad44.chunk.css": "slavikshakhov.github.io/chat-react/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.506293df.chunk.js": "slavikshakhov.github.io/chat-react/static/js/2.506293df.chunk.js",
+    "static/js/2.506293df.chunk.js.map": "slavikshakhov.github.io/chat-react/static/js/2.506293df.chunk.js.map",
+    "index.html": "slavikshakhov.github.io/chat-react/index.html",
+    "precache-manifest.f5d61e903cadd4c7c64537aa9f95b250.js": "slavikshakhov.github.io/chat-react/precache-manifest.f5d61e903cadd4c7c64537aa9f95b250.js",
+    "service-worker.js": "slavikshakhov.github.io/chat-react/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "slavikshakhov.github.io/chat-react/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.07da6f53.chunk.css.map": "slavikshakhov.github.io/chat-react/static/css/main.07da6f53.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a77fdfe.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.506293df.chunk.js",
+    "static/css/main.07da6f53.chunk.css",
+    "static/js/main.0b22fecf.chunk.js"
+  ]
+}
