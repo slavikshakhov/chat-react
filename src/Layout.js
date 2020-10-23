@@ -15,7 +15,7 @@ export default class Layout extends Component {
 
   initSocket = () => {
     const prod = {        
-            API_URL: 'https://slavik-checkers.herokuapp.com/'        
+            API_URL: 'https://slavik-checkers.herokuapp.com'        
     };
     const dev = {       
             API_URL: 'http://localhost:5000'        
