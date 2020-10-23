@@ -1,0 +1,8 @@
+.formbox {
+    position: relative;
+}
+.error {
+    position: absolute;
+    bottom: 10%;
+    left:30%;
+}

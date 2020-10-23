@@ -1,0 +1,65 @@
+.users {
+    width: 100%;
+    background-color: beige !important;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+.private-user-btn {
+    width: 100%;
+    padding: 0.3rem 1rem !important;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    border: none;    
+}
+.private-user-btn:hover {
+    background-color: rgba(70, 70, 243, 0.863);
+    box-shadow: 2px 4px 3px #888888;
+}
+.private-user-btn:active {
+    transform: translateY(2px);
+    box-shadow: 1px 2px 2px #888888;
+}
+.private-users-title {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.public-btn {
+    padding: 0.3rem 1rem;
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+.public-btn:hover {
+    background-color: rgb(53, 152, 250);
+    transform: translate(-1px);
+    box-shadow: 2px 4px 3px #888888; 
+}
+.public-btn:active {
+    transform: translateY(2px); 
+    box-shadow: 1px 1px 1px #888888; 
+}
+.divider {
+    width: 70%;
+    height: 0.2rem;
+    background-color: darkslategray;
+    margin: 1rem 0;
+}
+.no-users-warning {
+    color: rgb(238, 55, 55);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 700px) {
+    .private-user {
+        width: 50%;
+    }
+}

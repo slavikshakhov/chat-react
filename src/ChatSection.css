@@ -1,0 +1,48 @@
+.chatsection {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 5fr 1fr;
+    grid-template-areas: 'users messages' 'users input';   
+    grid-gap: 25px;   
+    height: 100%;  
+    width: 60rem;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.users {
+    grid-area: users; 
+    display: block;      
+}
+.messages {
+    grid-area: messages;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+.input {
+    grid-area: input;
+    border-radius: 10px !important;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+@media screen and (max-width: 1030px) {
+    .chatsection {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 5fr 1fr;
+        grid-template-areas: 'users messages' 'users input';   
+        width: 40rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .chatsection {
+        width: 25rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 1fr;
+        grid-template-areas: 'users' 'messages' 'input';
+    }
+    .users {
+        width: 25rem;
+        margin: 0 auto;
+    }
+}
