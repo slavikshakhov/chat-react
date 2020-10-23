@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Layout from './Layout';
 import Particles from 'react-particles-js';
-import { isAbsolute } from 'path';
 
 class App extends Component{
   render(){
