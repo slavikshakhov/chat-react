@@ -12,7 +12,7 @@
 }
 .users {
     grid-area: users; 
-    display: block;      
+    display: block;          
 }
 .messages {
     grid-area: messages;
