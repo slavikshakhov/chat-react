@@ -68,7 +68,7 @@ export default class ChatSection extends Component {
                 <div className='chatsection'>                
                     <div className='users bg-light-blue'>
                         <div className='f4 fw6 mb2 tc red ttc'>{user && user.name}</div>
-                        <Users users={users} user={user} setReceiver={this.setReceiver} setPublicChat={this.setPublicChat} socket={this.props.socket} />
+                        <Users users={users} user={user} setReceiver={this.setReceiver} setPublicChat={this.setPublicChat} socket={this.props.socket} removeUser={this.props.removeUser} />
                     </div>                
                     <div className='messages'><Messages oppositeChatter={oppositeChatter} publicMessages={publicMessages} privateMessages={privateMessages}
                                  activePrivateMessages={activePrivateMessages} user={user} isPublic={isPublic} popup={popup} receiver={receiver} /></div>

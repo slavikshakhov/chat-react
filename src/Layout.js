@@ -32,6 +32,9 @@ export default class Layout extends Component {
       }
     })
   }
+  removeUser = () => {
+    this.setState({user: null})
+  }
   setUser = (user) => {
     console.log(user)
     const { socket } = this.state
@@ -63,7 +66,7 @@ export default class Layout extends Component {
               checkUser={this.checkUser}
             />
           ) : (
-            <ChatSection socket={socket} user={user} users={users} />
+            <ChatSection socket={socket} user={user} users={users} removeUser={this.removeUser} />
           )}
         </div>
       </div>

@@ -6,6 +6,7 @@ export default class Users extends Component {
     const {user, socket} = this.props;
     console.log(user);
     socket.disconnect();
+    this.props.removeUser();
   }
   render() {
     const { user, users, setReceiver, setPublicChat } = this.props   
